@@ -4,6 +4,10 @@ public class ClassTwo {
 
     private Object classTwoObject;
 
+    public ClassTwo(Object classTwoObject) {
+        this.classTwoObject = classTwoObject;
+    }
+
     public Object getClassTwoObject() {
         return classTwoObject;
     }
@@ -11,7 +15,6 @@ public class ClassTwo {
     public void setClassTwoObject(Object classTwoObject) {
         this.classTwoObject = classTwoObject;
     }
-
 
 
 }
